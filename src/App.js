@@ -4,6 +4,8 @@ import Welcome from './apps/welcome';
 import Salaries from './apps/salaries';
 import Employees from './apps/employees';
 import Profile from './apps/profile';
+import Detail from './apps/detail';
+
 function hello(user) {
   if (user) {
     return <div>
@@ -75,6 +77,7 @@ function App() {
       <Employees employees={employees}/> */}
 
       <Profile user={employees[1]}/>
+      <Detail user={employees[2]}/>
     </div>
   );
 }

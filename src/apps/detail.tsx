@@ -15,6 +15,7 @@ class Detail extends React.Component<DetailProps> {
                 <li>ФИО: {user.last_name} {user.first_name} </li>
                 <li>Дата рождения: {user.birth_date}</li>
                 <li>Трудоустроен: {user.hire_date}</li>
+                <li>Пол: {user.gender}</li>
             </ul>
         </>;
     }
